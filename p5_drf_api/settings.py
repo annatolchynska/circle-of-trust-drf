@@ -95,6 +95,7 @@ INSTALLED_APPS = [
     'like_memo',
     'comments_memo_posts',
     'to_do',
+    'followers',
 ]
 SITE_ID = 1
 MIDDLEWARE = [

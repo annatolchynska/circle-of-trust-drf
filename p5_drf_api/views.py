@@ -10,7 +10,7 @@ from .settings import (
 def root_route(request):
     '''main route'''
     return Response({
-        "message": "Welcome to the Appy Families drf API!!"
+        "message": "Welcome! Now you're in the Circle of trust!"
     })
 
 
