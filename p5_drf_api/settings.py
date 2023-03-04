@@ -91,6 +91,7 @@ INSTALLED_APPS = [
     'corsheaders',
 
     'profiles',
+    'memo_posts',
 ]
 SITE_ID = 1
 MIDDLEWARE = [
