@@ -34,7 +34,8 @@ Custom models are: Profiles, memo posts, like memo, comments memo, to do list an
 
 ### Bugs
 
-While early deploying to Heroku I had a bug which I fixed by 
+- After deploying to Heroku while opening the app I got BadRequest 400 Error. It was fixed by deleting "https://" from value of ALLOWED_HOST config var key. 
+- The function of login/logout wasn't working. With the hekp of slack it was fixed by installing the library dj-rest-auth 2.1.9 version. If the version of this library is not updated, I was getting an error 401 (User is not authorized).
 
 ## Deployment
 
@@ -77,6 +78,8 @@ To duplicate deployment to Heroku, follow these steps:
 - The DRF API Walktrough project
 - Moments walktrough project
 - Image for the app was taken from the google images
+- Slack community
+- Tutor support
 
 
 
