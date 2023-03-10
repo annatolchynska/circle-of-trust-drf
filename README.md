@@ -37,6 +37,28 @@ Custom models are: Profiles, memo posts, like memo, comments memo, to do list an
 - After deploying to Heroku while opening the app I got BadRequest 400 Error. It was fixed by deleting "https://" from value of ALLOWED_HOST config var key. 
 - The function of login/logout wasn't working. With the hekp of slack it was fixed by installing the library dj-rest-auth 2.1.9 version. If the version of this library is not updated, I was getting an error 401 (User is not authorized).
 
+### Testing
+
+- PEP8 Online Validator was tested in the Gitpod workspace.
+
+<img src="./assets/pep8_test.png">
+
+- Manual testing
+
+Manual Tests were carried out for the Url paths, search and filter functionality, and CRUD functionality, all were made into tables and checked off.
+
+<img src="./assets/api-url-check.png">
+
+- Search and Filter was manually tested as well and everything is working as it should. 
+
+- CRUD Testing
+Table was made to check a user could Create, Read, Update and/or Delete items.
+LI meaning the user was logged in, and so could Create, and read.
+LO meaning the user was not logged in and so could only read.
+LI/O meaning the user was logged in and the owner so had full CRUD functionality.
+
+<img src="./assets/front-crud-test.png">
+
 ## Deployment
 
 The Circle of trust API is deployed to Heroku, using an ElephantSQL Postgres database.
